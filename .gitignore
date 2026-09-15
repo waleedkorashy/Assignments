@@ -1,0 +1,20 @@
+# Visual Studio User Strategy Files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build Results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Re]leasePublic/
+x64/
+x86/
+build/
+bin/
+obj/
+
+# Avoid tracking packages
+packages/
