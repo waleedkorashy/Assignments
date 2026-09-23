@@ -1,20 +1,94 @@
-# Visual Studio User Strategy Files
+# Visual Studio
 .vs/
 *.suo
 *.user
 *.userosscache
 *.sln.docstates
+.vsconfig
 
 # Build Results
+[Bb]in/
+[Oo]bj/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
-[Re]leasePublic/
 x64/
 x86/
-build/
-bin/
-obj/
+[Ww][Ii][Nn]32/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Bb]uild/
+logs/
 
-# Avoid tracking packages
-packages/
+# NuGet
+*.nupkg
+*.snupkg
+**/packages/*
+!**/packages/build/
+*.nuget.props
+*.nuget.targets
+
+# Rider / JetBrains
+.idea/
+[sS]tatic[Ss]torage*/
+
+# Visual Studio cache/options
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Build cache files
+*.rsuser
+*.rs
+*.csproj.FileListAbsolute.txt
+
+# Publish / deploy artifacts
+app.publish/
+[Pp]ublish/
+[Dd]eploy/
+
+# SQL Server
+*.mdf
+*.ldf
+
+# Test results
+[Tt]est[Rr]esult*/
+*.trx
+
+# Coverage
+*.coverage
+*.coveragexml
+*.dcop
+
+# Profiling
+*.psess
+*.vsp
+*.vspx
+*.sap
+
+# Crash dumps
+*.dmp
+*.crash
+*.log
+
+# OS files
+Desktop.ini
+Thumbs.db
+[Tt]humbs.db
+*~
+*.bak
+*.tmp
+.DS_Store
+
+# Azure / env secrets
+appsettings.Development.json
+*.pfx
+*.key
+
+# IDE - VS Code
+.vscode/
+*.code-workspace

@@ -1,0 +1,26 @@
+# Default behavior for all files
+* text=auto
+
+# Source code
+*.cs text eol=crlf
+*.csproj text eol=crlf
+*.sln text eol=crlf
+*.slnx text eol=crlf
+*.json text eol=crlf
+*.md text eol=crlf
+*.yml text eol=crlf
+*.xml text eol=crlf
+
+# Binary files (never modify)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.dll binary
+*.exe binary
+*.pdb binary
+*.sqlite binary
+*.vsidx binary
+*.db binary
+*.mpack binary
