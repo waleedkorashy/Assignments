@@ -1,7 +1,6 @@
-﻿using Assignment_3;
-using System;
+﻿using System;
 
-namespace Assignment_4
+namespace Assignment_3
 {
     // ===================== ENUMS =====================
 
@@ -176,28 +175,15 @@ namespace Assignment_4
 
             Console.Write("Enter second number: ");
             int b = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Enter third number: ");
-            int c = Convert.ToInt32(Console.ReadLine());
-
-            Console.Write("Enter fourth number: ");
-            int d = Convert.ToInt32(Console.ReadLine());
-
-            int sum = SumAndSubtract(a, b, c, d, true);
-            int diff = SumAndSubtract(a, b, c, d, false);
-
-            Console.WriteLine($"Sum: {sum}");
-            Console.WriteLine($"Difference: {diff}");
-            Console.WriteLine();
+            int sum;
+            int subtract;
+            SumAndSubtract(a, b,out sum,out subtract);
         }
-
-        // bool flag decides add or subtract since the question wants both
-        private static int SumAndSubtract(int a, int b, int c, int d, bool doSum)
+        private static void SumAndSubtract(int a, int b, out int sum,out int subtract)
         {
-            if (doSum)
-                return a + b;
-            else
-                return c - d;
+            sum = a + b;
+            subtract = a - b;
+            Console.WriteLine($"Sum = {sum} | Subtract = {subtract}");
         }
 
         // 4 Write a program in C# Sharp to create a function to calculate the
