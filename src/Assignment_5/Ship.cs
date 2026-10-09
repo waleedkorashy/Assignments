@@ -8,10 +8,10 @@ namespace Assignment_5
     //Ship : IMoveable — prints messages about moving on the sea.
     internal class Ship : IMoveable
     {
-        //public void MoveForward()
-        //   => Console.WriteLine("Moving forward in the sea");
-        //public void MoveBackward()
-        //   => Console.WriteLine("Moving backward in the sea");
+        public void MoveForward()
+           => Console.WriteLine("Moving forward in the sea");
+        public void MoveBackward()
+           => Console.WriteLine("Moving backward in the sea");
 
 
 
