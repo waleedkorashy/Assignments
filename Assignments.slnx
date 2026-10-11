@@ -4,4 +4,5 @@
   <Project Path="src/Assignment_3/Assignment_3.csproj" Id="11111111-2222-3333-4444-555555555553" />
   <Project Path="src/Assignment_4/Assignment_4.csproj" />
   <Project Path="src/Assignment_5/Assignment_5.csproj" Id="4e6a91b1-44d6-41c5-b8f4-69acecdf8dc0" />
+  <Project Path="src/OOP_Project/OOP_Project.csproj" Id="a17a43c7-7327-4430-ba2e-150a0a7215cf" />
 </Solution>
