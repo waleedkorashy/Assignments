@@ -1,9 +1,13 @@
 <Solution>
   <Project Path="src/Assignment_6/Assignment_6.csproj" Id="10dbf7cc-a18d-4eea-a3a3-5c6728432b9f" />
+  <Folder Name="/Assignment_7/">
+    <Project Path="src/Assignment_7/Assignment_7/Assignment_7.csproj" Id="0cee905d-4ecc-4e31-afd1-f83d98c6e7f4" />
+  </Folder>
   <Project Path="src/Assignment_1/Assignment_1.csproj" Id="11111111-2222-3333-4444-555555555551" />
   <Project Path="src/Assignment_2/Assignment_2.csproj" Id="11111111-2222-3333-4444-555555555552" />
   <Project Path="src/Assignment_3/Assignment_3.csproj" Id="11111111-2222-3333-4444-555555555553" />
   <Project Path="src/Assignment_4/Assignment_4.csproj" />
   <Project Path="src/Assignment_5/Assignment_5.csproj" Id="4e6a91b1-44d6-41c5-b8f4-69acecdf8dc0" />
+  <Project Path="src/Assignment_7/Assignment_7_UnitTest/Assignment_7_UnitTest.csproj" />
   <Project Path="src/OOP_Project/OOP_Project.csproj" Id="a17a43c7-7327-4430-ba2e-150a0a7215cf" />
 </Solution>
